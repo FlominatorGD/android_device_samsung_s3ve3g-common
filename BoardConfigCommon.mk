@@ -89,6 +89,9 @@ TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 # Radio
 BOARD_PROVIDES_LIBRIL := true
 
+# selinux
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../$(COMMON_PATH)/recovery/recovery_keys.c
 BOARD_USES_MMCUTILS := true
